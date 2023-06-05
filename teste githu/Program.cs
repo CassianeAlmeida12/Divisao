@@ -21,3 +21,7 @@ catch (Exception ex)//posso fazer mais de um catch -------- Esse é generico
 {
     Console.WriteLine($"Ocorreu um erro! {ex.Message}");
 }
+finally
+{
+    Console.WriteLine("Aqui passa de qualquer forma!" );
+}
